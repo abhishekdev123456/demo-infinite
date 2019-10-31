@@ -440,5 +440,23 @@ img.right {
 	padding-left: 90px;
 	cursor: pointer;
   }
+  @media (max-width:600px)  { 
+	  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+	  div.subject, div.comments{
+		padding-left: 0px;
+	  }  
+	  .user-profile .bio {
+		margin-left: 4.43em!important;
+	  }
+	  .user-profile .username {
+		margin-left: 3.8em;
+		margin-top: -63px;
+		font-size: unset!important;
+	  }
+	  .user-profile > img.avatar {
 
+		height: 4.23em;
+		width: 4.23em;
+	  }
+	}
   
